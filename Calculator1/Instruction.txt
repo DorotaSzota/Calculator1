@@ -1,0 +1,18 @@
+﻿1. Define a generic class called `Calculator<T>` that takes two parameters of type T.
+
+2. Create a delegate type called `Operation<T>` that takes two parameters of type T and returns a value of type T.
+
+3. Add a constructor to the `Calculator<T>` class that accepts two parameters of type T and assigns them to private fields.
+
+4. Implement a method called `PerformOperation` in the `Calculator<T>` class that takes an `Operation<T>` delegate as a parameter. 
+This method should invoke the delegate, passing the two private fields as arguments, and return the result.
+
+5. In the main program, create an instance of `Calculator<int>` and initialize it with two integer values.
+
+6. Create a lambda expression of type `Operation<int>` that adds two integers.
+
+7. Call the `PerformOperation` method on the calculator instance, passing the lambda expression as the argument, and display the result.
+
+8. Repeat steps 5-7 for different types such as `double` or `string`.
+
+This exercise is rather to focus on understanding the concepts and implementing the logic rather than providing a complete code solution.
